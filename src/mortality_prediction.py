@@ -1,23 +1,18 @@
-import collections
 import logging
 import os
 import random
 import warnings
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from functools import partial
 
 import numpy as np
 import pandas as pd
-import torch
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, average_precision_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
-from torch import optim
-from torch.optim import lr_scheduler
 from tqdm import tqdm
 
 import constants
