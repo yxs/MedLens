@@ -1,8 +1,10 @@
 # MedLens: Improve mortality prediction via medical signs selecting and regression interpolation
 
-## Introduction
+This repository contains the code for the paper titled [MedLens: Improve mortality prediction via medical signs selecting and regression interpolation]()
 
-Monitoring the health status of patients and predicting mortality in advance is vital for providing patients with timely care and treatment. Massive medical signs in Electronic Health Records (EHR) are fitted into advanced machine learning models to make predictions. However, the data-quality problem of original clinical signs is less discussed in the literature. Based on an in-depth measurement of the missing rate and correlation score across various medical signs and a large amount of patient hospital admission records, we discovered the comprehensive missing rate is extremely high, and a large number of useless signs could hurt the performance of prediction models. Then we concluded that only improving data-quality could improve the baseline accuracy of different prediction algorithms. We designed MEDLENS, with an automatic vital medical signs selection approach via statistics and a flexible interpolation approach for high missing rate time series. After augmenting the data-quality of original medical signs, MEDLENS applies ensemble classifiers to boost the accuracy and reduce the computation overhead at the same time. It achieves a very high accuracy performance of 0.96 AUC-ROC and 0.81 AUC- PR, which exceeds the previous benchmark.
+## Overview
+
+MedLens aims to improve patient health monitoring and mortality prediction by addressing the data-quality problem associated with clinical signs. After assessing the missing rate and correlation score across various medical signs and a large number of patient hospital admission records, MedLens applies an automatic vital medical signs selection approach via statistics and a flexible interpolation approach for high missing rate time series. The resulting ensemble classifiers boost the accuracy and reduce the computation overhead, achieving a high performance of 0.96 AUC-ROC and 0.81 AUC-PR.
 
 ## Citation
 
@@ -21,7 +23,20 @@ Please be sure also to cite the original [MedLens Paper]()
 
 ## Prerequsites
 
+The code requires the following Python packages:
+
 - Python 3.x
 - numpy
 - pandas
 - sklearn
+
+## Installation & Usage
+
+1. Clone this repository to your local machine.
+2. Install the necessary Python packages listed in the Prerequisites section.
+3. Run the following scripts in the order provided:
+   - `top_itemid_selection.py` to select relevant items.
+   - `extract_logs.py` to parse the dataset CSV files.
+   - `generate_time_series_logs.py` to generate time series files.
+   - `itemid_hospital_expire_correlation.py`, `missing_data_rates.py` for statistics.
+   - `mortality_prediction.py` for interpolation and prediction.
