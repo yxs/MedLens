@@ -52,8 +52,9 @@ The code requires the following Python packages:
 ## Installation & Usage
 
 1. Clone this repository to your local machine.
-2. Install the necessary Python packages listed in the Prerequisites section.
-3. Run the following scripts in the order provided:
+2. Prepare the corresponding MIMIC III dataset.
+3. Install the necessary Python packages listed in the Prerequisites section.
+4. Run the following scripts in the order provided:
    - `top_itemid_selection.py` to select relevant items.
    - `extract_logs.py` to parse the dataset CSV files.
    - `generate_time_series_logs.py` to generate time series files.
