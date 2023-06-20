@@ -21,6 +21,25 @@ If you use this code in your research, please cite the following publication.
 
 Please be sure also to cite the original [MedLens Paper]()
 
+## Architecture
+
+![framework](./figs/framework.png)
+
+## Results
+
+Accuracy Performance and Time Consuming Across Various Classifiers
+
+![increased after interpolation](./figs/increased_after_interpolation.png)
+
+
+Performance Under Different Interpolation Methods
+
+![perf under different interpolation](./figs/perf_under_different_interpolation.png)
+
+### Compare with previous works
+
+![compare](./figs/compare.png)
+
 ## Prerequsites
 
 The code requires the following Python packages:
