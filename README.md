@@ -11,11 +11,13 @@ MedLens aims to improve patient health monitoring and mortality prediction by ad
 If you use this code in your research, please cite the following publication.
 
 ```
-@article{ye2023medlens,
-  title={MedLens: Improve mortality prediction via medical signs selecting and regression interpolation},
+@inproceedings{ye2023medlens,
+  title={MedLens: Improve Mortality Prediction Via Medical Signs Selecting and Regression},
   author={Ye, Xuesong and Wu, Jun and Mou, Chengjie and Dai, Weinan},
-  journal={arXiv preprint arXiv:2305.11742},
-  year={2023}
+  booktitle={2023 IEEE 3rd International Conference on Computer Communication and Artificial Intelligence (CCAI)},
+  pages={169--175},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
