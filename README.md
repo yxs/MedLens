@@ -1,6 +1,6 @@
-# MedLens: Improve mortality prediction via medical signs selecting and regression interpolation
+# MedLens: Improve Mortality Prediction Via Medical Signs Selecting and Regression
 
-This repository contains the code for the paper titled [MedLens: Improve mortality prediction via medical signs selecting and regression interpolation]()
+This repository contains the code for the paper titled [MedLens: Improve Mortality Prediction Via Medical Signs Selecting and Regression](https://ieeexplore.ieee.org/abstract/document/10201302)
 
 ## Overview
 
@@ -21,7 +21,7 @@ If you use this code in your research, please cite the following publication.
 }
 ```
 
-Please be sure also to cite the original [MedLens Paper]()
+Please be sure also to cite the original [MedLens Paper](https://ieeexplore.ieee.org/abstract/document/10201302)
 
 ## Architecture
 
