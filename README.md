@@ -23,6 +23,20 @@ If you use this code in your research, please cite the following publication.
 
 Please be sure also to cite the original [MedLens Paper](https://ieeexplore.ieee.org/abstract/document/10201302)
 
+### Corrections
+
+As mentioned by Jessica Hullman in [IEEE’s Refusal to Issue Corrections](https://statmodeling.stat.columbia.edu/2020/12/10/ieees-refusal-to-issue-corrections/), I also attempted to get permission from IEEE to correct a typo in my paper, but unfortunately, it was not allowed.
+
+The last sentence of the abstract,
+
+It achieves a very high accuracy performance of *0.96%* AUC-ROC and *0.81%* AUC-PR, which exceeds the previous benchmark.
+
+should be corrected to
+
+It achieves a very high accuracy performance of **0.96** AUC-ROC and **0.81** AUC-PR, which exceeds the previous benchmark.
+
+I have uploaded the corrected version on [arXiv](https://arxiv.org/abs/2305.11742). The only difference between the two versions is that the arXiv version has the extraneous % removed.
+
 ## Architecture
 
 ![framework](./figs/framework.png)
